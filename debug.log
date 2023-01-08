@@ -1,0 +1,32 @@
+2022-09-07 22:36:12,169 - [Errno 2] No such file or directory: 'datase.csv'
+Traceback (most recent call last):
+  File "C:\Users\james\Dropbox\Tasks\askenas\least_squared_regression.py", line 10, in <module>
+    data = pd.read_csv('datase.csv')
+  File "C:\Users\james\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\james\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\james\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\james\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\james\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\james\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'datase.csv'
+2022-09-07 22:57:13,221 - expected string or bytes-like object
+Traceback (most recent call last):
+  File "C:\Users\james\Dropbox\Tasks\askenas\least_squared_regression.py", line 15, in <module>
+    raise warnings.warn(RuntimeWarning)
+TypeError: expected string or bytes-like object
+2022-09-07 22:58:08,107 - expected string or bytes-like object
+Traceback (most recent call last):
+  File "C:\Users\james\Dropbox\Tasks\askenas\least_squared_regression.py", line 15, in <module>
+    raise warnings.warn(RuntimeWarning)
+TypeError: expected string or bytes-like object
+2022-09-07 23:00:08,648 - expected string or bytes-like object
+Traceback (most recent call last):
+  File "C:\Users\james\Dropbox\Tasks\askenas\least_squared_regression.py", line 15, in <module>
+    raise warnings.warn(RuntimeWarning)
+TypeError: expected string or bytes-like object
